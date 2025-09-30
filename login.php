@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-// Hardcoded credentials
 $valid_email = "sandara";
 $valid_password = "sandarapass";
 
@@ -15,7 +14,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($email === "" || $password === "") {
         $error = "All fields are required.";
     } elseif ($email === $valid_email && $password === $valid_password) {
-        // Success → Save session and go to success page
         $_SESSION['logged_in'] = true;
         $_SESSION['email'] = $email;
         header("Location: success.php");
@@ -32,8 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>Login - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Login box */
-        .login-container {
+          .login-container {
             max-width: 400px;
             margin: 100px auto;
             background: #fff;
@@ -97,3 +94,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </div>
 </body>
 </html>
+
