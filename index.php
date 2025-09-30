@@ -120,8 +120,7 @@ $softskills = ['Problem-Solving', 'Communication', 'Teamwork', 'Adaptability', '
     <!-- Main content -->
     <div class="main-content">
       <div class="main-header">
-        <!-- Added logged-in user and logout -->
-        <h1>Welcome, <?php echo htmlspecialchars($_SESSION['email']); ?> 🎉</h1>
+            <h1>Welcome, <?php echo htmlspecialchars($_SESSION['email']); ?> 🎉</h1>
         <p><?php echo $title; ?></p>
         <p style="text-align:right;">
           <a href="logout.php" style="color:#44265c; font-weight:bold;">Logout</a>
@@ -190,3 +189,4 @@ $softskills = ['Problem-Solving', 'Communication', 'Teamwork', 'Adaptability', '
   </script>
 </body>
 </html>
+
