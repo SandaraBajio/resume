@@ -1,8 +1,8 @@
-📌 Project Overview
+**📌 Project Overview**
 
 This project is a basic login system built with PHP and PostgreSQL, styled with CSS for a user-friendly interface. It demonstrates the use of sessions for authentication, secure access to protected pages, and logout functionality. The project also includes front-end enhancements for a smoother user experience.
 
-🛠 Tools and Software Used
+**🛠 Tools and Software Used**
 
 Visual Studio Code (VS Code) – Code editor for writing and managing PHP, HTML, and CSS.
 
@@ -12,7 +12,7 @@ Google Chrome – Browser for running and testing the application with developer
 
 GitHub – Version control and repository for code backup and project tracking.
 
-⚙️ Features
+**⚙️ Features**
 
 User login with session handling.
 
@@ -24,7 +24,7 @@ Styled interface with CSS, including animations and feedback messages.
 
 Redirects after login and logout for smoother navigation.
 
-🚀 How to Run the Project
+**🚀 How to Run the Project**
 
 Install PostgreSQL and ensure the service is running.
 
@@ -36,7 +36,7 @@ Open the project in Google Chrome or any browser.
 
 Log in using the valid credentials (hardcoded for demo purposes).
 
-⚡ Challenges Faced & Solutions
+**⚡ Challenges Faced & Solutions**
 
 PostgreSQL connection issues – Fixed by checking credentials, verifying the running service, and testing with psql before using PHP.
 
